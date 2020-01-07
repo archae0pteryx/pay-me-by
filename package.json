@@ -5,7 +5,9 @@
   "author": "archae0pteryx <thefakeyran@icloud.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --watchAll src/"
+    "test": "jest --watchAll src/",
+    "dev": "node scripts/ scripts/index.html 01-07-2020",
+    "debug": "node --inspect-brk scripts/"
   },
   "devDependencies": {
     "jest": "^24.9.0"
