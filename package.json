@@ -1,0 +1,13 @@
+{
+  "name": "pay-me-by",
+  "version": "1.0.0",
+  "main": "./scripts/index.js",
+  "author": "archae0pteryx <thefakeyran@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll src/"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
