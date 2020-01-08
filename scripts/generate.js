@@ -5,7 +5,7 @@ function genHTML(then) {
 function genBASH(then) {
   const js = genHTML(then)
   return `#!/bin/bash
-    echo ${js} 
+
   `
 }
 module.exports = {
