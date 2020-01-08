@@ -16,6 +16,6 @@ JS="<script>let now = Date.now();const chunk = ($THEN - now) / 100;let oValue = 
 cat <<EOF > .git/hooks/pre-commit
 #!/bin/bash
 echo "HOOK TEST!"
-sed 's|</body>|$JS|g' "$1" > "$1"
+sed 's|</body>|$JS|g' "$1"
 EOF
 chmod +x .git/hooks/pre-commit
