@@ -18,6 +18,7 @@ JS="<script>let now = Date.now();const chunk = ($THEN - now) / 100;let oValue = 
 #TODO: Dont replace whole file if it exists
 cat <<EOF > .git/hooks/pre-commit
 #!/bin/bash
-sed '/\<\/body\>/i $JS' "../../$1"
+echo "HOOK TEST!"
+sed 's|</body>|$JS|g' "$1"
 EOF
-
+chmod +x .git/hooks/pre-commit
