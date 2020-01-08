@@ -17,6 +17,7 @@ cat <<EOF > .git/hooks/pre-commit
 #!/bin/bash
 echo "HOOK TEST!"
 if grep -v -Fxq "$JS" "$1"; then
+  echo "no match"
   sed -i '' -e "s|</body>|$JS|g" "$1"
 fi
 EOF
