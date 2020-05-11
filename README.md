@@ -6,7 +6,7 @@ A zero dependency utility to inject a pre commit git hook to add opacity to the 
 
 `body.opacity = (now / when) * how pissed i am`
 
-This is especially useful when those MFRS string you along saying stuff like:
+This is especially useful when clients continually hit you with:
   > Your check is on the way
 
   > I'll have it tommorow
@@ -14,8 +14,6 @@ This is especially useful when those MFRS string you along saying stuff like:
   > I'll have to get back to you
 
 Because it's injected via a pre-commit hook, deleting the injection from the `index.html` will only result in it being re injected on the next commit...
-
-Wanna bet their new "Much More Affordable Contractor" - working for $8/hr - doesn't know what a pre-commit hook is? How's their code review?
 
 You can find all this out and more by running this simple curl command in the project directory:
 
