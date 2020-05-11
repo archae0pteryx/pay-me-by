@@ -1,4 +1,4 @@
-# Pay Me By (Bitch)
+# Pay Me By
 
 ***NOTE: This is not an original idea! I make no claims to the brilliance of this idea. I've only added my own special sauce***
 
